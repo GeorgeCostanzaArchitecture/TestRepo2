@@ -6,7 +6,7 @@ resource "aws_redshift_cluster" "positive67546546456" {
   node_type          = "dc1.large"
   cluster_type       = "single-node"
   
-  encrypted          = false
+  encrypted          = true
 }
 
 resource "aws_redshift_cluster" "positrtrtrtrttive67546546456" {
